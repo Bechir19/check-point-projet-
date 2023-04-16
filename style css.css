@@ -1,0 +1,407 @@
+.liste  {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    font-family : century;
+    font-size :'Times New Roman', Times, serif;
+    
+}
+
+body {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)) ,url(image/maldives-gff7d4487e_1920.jpg);
+     background-position: center;
+     background-size: cover;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+    border-color: rgba(0,0,0,0.6);
+     flex-direction: column;
+     position: relative;
+}
+header {
+    background-color: #222
+ 
+
+}
+section
+{
+    margin-top: 50px;
+}
+.logo 
+{ 
+    color :white;
+    padding: auto;
+    border: 1px solid transparent;
+    position:absolute ;
+    top:10px;
+    left: 10px;
+    font-weight: 900 ;
+    font-size: 25px;
+    text-decoration:none;
+
+   
+}
+
+a{
+ text-decoration: 0;
+ text-transform: capitalize;
+}
+ header .logo a
+{
+    font-size: 25px;
+    color: #29d9d5;
+}
+.logo a span
+{
+    color :white; 
+     
+}
+
+#img{width: 116px;}
+    ul
+    {
+        list-style: none;
+        float: right;
+        display: flex;
+        margin-top : px;
+        
+    }
+    ul li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        margin: 10px;
+        border: 1px solid #fff;
+        transition: 0.6s ease;
+
+    }
+    ul li a:hover
+    {
+        background: #fff;
+        color:black;
+
+
+    }
+    ul li .liste a 
+    {
+        background:white ;
+        color: black;
+
+
+    }
+    .principale
+    {
+        max-width: 114rem;
+        margin :auto;
+    }
+    .titre{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50% ) ;
+    }
+    .titre h1{
+        color:  white;
+        font-size: 70px ;
+        text-transform: capitalize;
+    }
+    .bouton{
+        position: absolute;
+        top: 62%;
+        left: 43%;
+        transform: translate (-50%,-50% ) ;
+
+
+    }
+    .bouton a {
+        color:#29d9d5;
+        text-decoration: none;
+        border: 1px soqid #fff;
+        padding: 20px 20px ;
+        font-family: 'Raleway', sans-serif;
+
+
+    }
+    .btn{
+    color: #29d9d5;
+    font-size: 17px;
+    border: 2px solid #29d9d5;
+    padding: 5px 20px;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+      
+
+    
+    .btn:hover
+    {
+        background-color: #29d9d5;
+        color: #fff;
+    }
+  /*  .field {
+       width: 100%; 
+       border: NONE;
+       background-color: rgb(230, 230, 230);
+       padding: 0.5rem 1rem; 
+       font-size: 17px;
+       margin-bottom: 22px;
+       transition: .3s;
+    }
+    
+    .field:hover
+    {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+.right
+{
+    	padding: 25px 40px;
+        background-color: #fff;    
+        box-shadow: -6px 4px 10px #29d9d5;
+        
+}
+*/
+.left video{
+	background : url("image/video.mp4") ;
+    
+	background-size : cover;
+	height: 100%;
+    width: 100%;    
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+    
+}
+.box{
+	max-width: 1000px;
+	display: grid;
+	
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    right: 75%;
+    transform: translate(-100%,395%);
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+    
+}
+
+.contact
+{
+    font-family: cursive;
+}
+.button
+{
+    width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #2ecc71;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+.ul li a
+{
+    display: flex;
+    margin-top: 30%;
+    text-decoration: none;
+    color: #fff; 
+    padding: 10px 20px; 
+    text-transform: uppercase; 
+    margin: 10px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+    
+}
+
+.reserver
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 25%;
+}
+.reserver div , .reserver div input[type="submit"]
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.reserver label 
+{
+    color: #999;
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+.reserver input {
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid #29d9d5;
+    outline: 0;
+    width: 100%;
+    font-size: 13px;
+    color: #fff;
+}
+.reserver input[type="submit"] {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #29d9d5;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.reserver button {
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid #29d9d5;
+    outline: 0;
+    width: 25%;
+    font-size: 13px;
+    color: #29d9d5;
+}
+.reserver button:hover{
+    cursor: pointer;
+}
+/* #popular-destination 
+{
+    padding: 0 10% ;
+    margin-bottom: 50px;
+    
+}
+
+#popular-destination .content
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 32px;
+}
+#popular-destination .content .box {
+    overflow: hidden;
+    position: relative;
+    height: 280px;
+    transition: 0.5s;
+
+    
+}
+#popular-destination .content .box img
+{
+    height: 100%;
+    width: 200%; 
+    /* top: 67px;;
+    left: 100; */
+    
+/* }
+.box .content  h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.boxx
+{
+    height: 80%;
+    width: 56%; 
+    top: 67px;;
+    left: 100%;
+    transform: translate(100%,55%);
+    margin: 70PX;
+}   
+.img{
+    transform: translate(30%,100%);
+} */ 
+
+
+/*Destination CSS*/
+
+#popular-destination {
+    padding: 0 10% ;
+    margin-bottom: 50px;
+}
+#popular-destination .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 32px;
+}
+#popular-destination .content .boxx {
+    overflow: hidden;
+    /* position: relative; */
+    height: 250px;
+    transition: 0.5s;
+}
+#popular-destination .content .boxx img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+
+.boxx:hover {
+    box-shadow: 0 0 10px #29d9d5;
+}
+.boxx:hover .content {
+    transform: translateX(0);
+}
+
+.title
+{
+    top: 50px;
+    transform: translate(-315px, 950px);
+    color: #29d9d5;
+    margin: 70PX;
+    margin-left: 12px;
+    text-transform: capitalize;
+   
+    
+    
+} 
+.title::after
+{
+    position: absolute;
+    left: -15px;
+    content: "";
+    height: 100%;
+    background-color: #fff;
+    width: 5px;
+}
+        /* Style pour le message de confirmation */
+        .confirmation-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Hauteur de l'écran */
+            opacity: 0; /* Opacité initiale à 0 pour l'animation */
+            pointer-events: none; /* Désactiver les événements de souris tant que le message est caché */
+            transition: opacity 0.5s; /* Durée de l'animation de 0.5 seconde */
+        }
+
+        .confirmation-message {
+            padding: 20px; /* Espacement intérieur de 20 pixels */
+            background-color: #f0f0f0; /* Couleur de fond gris clair */
+            border-radius: 4px; /* Coins arrondis de 4 pixels */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+            text-align: center; /* Centrer le texte */
+            opacity: 0; /* Opacité initiale à 0 pour l'animation */
+            transition: opacity 0.5s, transform 0.5s; /* Durée de l'animation de 0.5 seconde */
+            transform: translateY(-20px); /* Animation de translation vers le haut */
+        }
+
+        /* Animation pour afficher le message de confirmation */
+        .confirmation-container.show {
+            opacity: 1; /* Opacité à 1 pour afficher le message */
+            pointer-events: auto; /* Réactiver les événements de souris pour interagir avec le message */
+        }
+
+        .confirmation-message.show {
+            opacity: 1; /* Opacité à 1 pour afficher le message */
+            transform: translateY(0); /* Réinitialiser la translation */
+        }
+

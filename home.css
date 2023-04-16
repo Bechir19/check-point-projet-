@@ -1,0 +1,214 @@
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0,0,0,0.6)) ,url(image/maldives-gff7d4487e_1920.jpg);  
+    background-color:black ;
+     background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    border-color: rgba(0,0,0,0.6);
+    flex-direction: column;
+    position: relative; 
+}
+body { background-color:black ;}
+
+
+.logo 
+{ 
+    color :white;
+    padding: auto;
+    border: 1px solid transparent;
+    position:absolute ;
+    top:10px;
+    left: 10px;
+    font-weight: 900 ;
+    font-size: 25px;
+    text-decoration:none;
+
+   
+}
+
+a
+{
+ text-decoration: 0;
+ text-transform: capitalize;
+}
+ header .logo a
+{
+    font-size: 25px;
+    color: #29d9d5;
+}
+.logo a span
+{
+    color :white; 
+     
+}
+#img{width: 116px;}
+    ul
+    {
+        list-style: none;
+        /* float: right; */
+        display: flex;
+        margin-top : px;
+        
+    }
+    ul li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        margin: 10px;
+        border: 1px solid #fff;
+        transition: 0.6s ease;
+
+    }
+    ul li a:hover
+    {
+        background: #fff;
+        color:black;
+
+
+    }
+    ul li .liste a 
+    {
+        background:white ;
+        color: black;
+
+
+    }
+    .titre h1{
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%,-50% ) ;
+        color:  white;
+        font-size: 70px ;
+     
+        text-transform: capitalize;
+    }
+    .titre p{
+        position: absolute;
+        top: 59%;
+        left: 52%;
+        transform: translate(-50%,-50% ) ;
+        color:  white;
+        font-size: 20px ;
+     
+        text-transform: capitalize;
+    }
+ .btn
+ {
+        color: #29d9d5;
+        font-size: 17px;
+        border: 2px solid #29d9d5;
+        padding: 5px 20px;
+        transition: 0.5s;
+        font-weight: bolder;
+        top: 72%;
+        LEFT: 43%;
+        POSITION: absolute;
+        font-family: 'Raleway', sans-serif;
+
+    }
+          
+    
+        
+.btn:hover
+{
+ background-color: #29d9d5;
+color: #fff;
+}
+        
+ .title
+ {
+ top: 50px;
+color: #29d9d5;
+ margin: 70PX;
+margin-left: 12px;
+text-transform: capitalize;
+}
+#popular-destination {
+padding: 0 10% ;
+margin-bottom: 50px;
+}
+#popular-destination .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 90px;
+}
+#popular-destination .content .box {
+    overflow: hidden;
+     position: relative; 
+    height: 250px;
+    transition: 0.5s;
+}
+#popular-destination .content .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.box:hover {
+    box-shadow: 0 0 10px #29d9d5;
+}
+.box:hover .content {
+    transform: translateX(0);
+}
+.box .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+    transform: translateX(100%);
+    transition: 0.5s;
+}
+.box .content  h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.box .content p {
+    padding: 2px;
+}
+
+/*Steps*/
+.wrapper
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+#steps{
+background-color: white;}
+#steps ul{
+    margin: 80px 0;
+}
+#steps ul li{
+    width: 300px;
+    float: left;
+    padding-top: 140px;
+    text-align: center;
+    margin-right: 10px;      
+
+}
+#steps h4{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#steps p{
+    margin-bottom: 20px;
+}
+#step-1{
+    background: url('image/steps-icon-1.png') no-repeat top center;
+}
+#step-2{
+    background: url('image/steps-icon-2.png') no-repeat top center;
+}
+#step-3{
+    background: url('image/steps-icon-3.png') no-repeat top center;
+}
+ 

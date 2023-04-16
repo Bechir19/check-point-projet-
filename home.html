@@ -1,0 +1,155 @@
+<doctype.html>
+
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="x-comatible" content="IE=edge">
+            <meta name="viewport"content="widh=device-width ,initial-scale=1.0">
+            <link rel= "stylesheet" href ="home.css" >
+            <title> Site web tuto </title>
+        </head>
+        <body>
+            <header>
+                
+           
+                <div>
+                    <div class="logo">
+                        <a href="home.html"> <span> bechir </span>  Travel </a>
+                        
+                    </div>
+                <ul class="">
+                    <li>
+                        <a  href="home.html" >  Acccueil </a> 
+                    </li>
+                    <li>
+                        <a href="#popular-destination"> destinations</a>                    
+                    </li>              
+                    <li>
+                        <a href="#steps"> Services </a>
+                    </li>
+                    <li>
+                        <a href="contact.html"> Contact </a>
+                    </li>
+                </ul>
+                </div>
+                <div class="titre ">
+                    <h1>  Voyagez En Securité </h1> 
+                    <p>Nous garantissons un transport agréable et sans stress. Grâce à une organisation
+                        solide,
+                         <br>vous n'aurez qu'à vous laisser guider par nos conseillers.</p>
+                    
+                 </div>
+                 <div class="bouton">
+                 <a href="Reserver Maintenant.html" class="btn"> Reserver Maintenant   </a>
+                 </div>
+                 
+            </header>
+            <section id="popular-destination">
+                <h1 class="title"> Destinations populaires</h1>
+                <div class="content">
+                    <div class="box">                  
+                        <img src="image/paris.jpg" width="100%" alt="">
+                        <div class="content">
+                            <div>
+                                <h4> Paris </h4>
+                                <div class="bouton">
+                                <a href="Reserver Maintenant.html" class="btn" > Reserver Maintenant</a>
+                            </div> 
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="box">
+                            <img src="image/rome.jpg"alt="">
+                        <div class="content">
+                            <div > 
+                                <h4> Rome </h4>
+                                <div class="bouton">
+                                <a href="Reserver Maintenant.html" class="btn" > Reserver Maintenant</a>
+                            </div>
+                            </div>     
+                        </div>                        
+                    </div>                               
+                    <div class="box">
+                        <img src="image/miami.jpg"  alt="">
+                            <div class="content">
+                                <div>
+                                    <h4> Miami </h4> 
+                                    <br> 
+                                 <div class="bouton">   
+                                    <a href="Reserver Maintenant.html" class="btn" > Reserver Maintenant</a>
+                             </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                            <img src="image/los-angeles.jpg" alt="">
+                                <div class="content">
+                                    <div>
+                                        <h4>Los-Angeles</h4>
+                                    <div class="bouton">
+                                        <a href="Reserver Maintenant.html" class="btn" > Reserver Maintenant</a>
+                                    </div>
+                                </div>
+                    </div>  
+                    <div class="box">
+                        <img src="image/tokio.jpg" alt="">
+                        <div class="content">
+                            <div>
+                                <h4> Tokio </h4>
+                            </div>
+                        </div>
+                    </div>  
+                    <!-- <div class="box">
+                        <img src="image/moscou.jpg" alt="">
+                        <div class="content">
+                            <div>
+                                <h4>Moscou</h4>                            
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="box">
+                        <img src="image/moscou.jpg" alt="">
+                        <div class="content">
+                            <div>
+                                <div>
+                                <h4>Moscou</h4>    
+                            <div class="bouton">
+                                <a href="Reserver Maintenant.html" class="btn" > Reserver Maintenant</a>       
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </section>
+            <section id="steps">
+                <div class="wrapper">
+                    <ul>
+                        <li id="step-1">
+                            <h4>Planifier</h4>
+                            <p>Confiez-nous vos rêves d’évasion : en famille ou entre amis, nous trouverons la formule qui comblera vos attentes.</p>
+                        </li>
+                        <li id="step-2">
+                            <h4>Organizer</h4>
+                            <p>Bénéficiez de l’expertise de nos spécialistes de chaque destination, ils vous accompagnent dans la réalisation de votre voyage.</p>
+                        
+                        </li>
+                        <li id="step-3">
+                            <h4>Voyager</h4>
+                            <p>Nous nous chargeons d’assurer votre sécurité et de veiller à votre pleine sérénité tout au long de votre voyage.</p>
+                        </li>
+                        <div class="clear"></div>
+                    </ul>
+                </div>
+            </section>
+            <script>
+                var toggle_menu = document.querySelector('.responsive-menu');
+                var menu = document.querySelector('.menu');
+                toggle_menu.onclick= function(){
+                     toggle_menu.classList.toggle('active');
+                     menu.classList.toggle('responsive')
+                }
+            </script>
+        
+        </body>
+    </html>

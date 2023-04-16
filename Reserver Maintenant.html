@@ -1,0 +1,77 @@
+<doctype.html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="x-comatible" content="IE=edge">
+            <meta name="viewport"content="widh=device-width ,initial-scale=1.0">
+            <link rel= "stylesheet" href ="style css.css" >
+            <title> Site web tuto </title>
+
+        </head>
+        <body>
+            <ul class="acctive" >
+                <div>
+                    <div class="logo">
+                        <a href="home.html"> <span> bechir </span>  Travel </a>
+                        
+                    </div>
+                <ul class="">
+                    <li>
+                        <a  href="home.html" >  Return to Home </a> 
+                    </li>
+                   
+                    <li>
+                        <a href="contact.html"> Reserver Maintenant </a>
+                    </li>
+                </ul>
+                </div>
+            </ul> 
+            <div class ="find_trip">
+                <div class="reserver">
+                    <div>
+                        <label>Pays </label>
+                        <input type="text" placeholder="Entrez un pays ">
+    
+                    </div>
+                    <div>
+                        <label> Ville </label>
+                        <input type="text" placeholder="Entrez un ville">
+                    </div>
+                    <div>
+                        <label> Region  </label>
+                        <input type="text" placeholder="Entrez une Region ">
+                    </div>
+                   
+                    <button id="voirBtn">Voir</button>
+                </div>
+                
+                
+
+                <!-- Éléments pour afficher le message de confirmation -->
+                <div class="confirmation-container">
+                    <div class="confirmation-message">
+                        <p>Vous avez réservé avec succès la liste de stations !</p>
+                        <p>Merci pour votre réservation.</p>
+                    </div>
+                </div>
+            
+                <script>
+                    // Récupérer le bouton "Voir" par son ID
+                    var voirBtn = document.querySelector('#voirBtn');
+            
+                    // Récupérer le conteneur du message de confirmation
+                    var confirmationContainer = document.querySelector('.confirmation-container');
+            
+                    // Récupérer le message de confirmation
+                    var confirmationMessage = document.querySelector('.confirmation-message');
+            
+                    // Ajouter un gestionnaire d'événement au bouton "Voir"
+                    voirBtn.addEventListener('click', function() {
+                        // Ajouter les classes "show" pour afficher le message avec l'animation
+                        confirmationContainer.classList.add('show');
+                        confirmationMessage.classList.add('show');
+                    });
+                    
+                </script>
+        </body>
+    </html>
